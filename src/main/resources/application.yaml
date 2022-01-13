@@ -1,0 +1,12 @@
+key:
+  bot_name: kursach_123_bot
+  bot_token: 5089796361:AAG8Q48Y65Jb8sasYNM1NQ5S2nSH0ec5n3c
+spring:
+  application:
+    name: Telegram_bot
+server:
+  port: 8001
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
